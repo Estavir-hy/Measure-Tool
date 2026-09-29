@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c0b30tuisg5jb"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_iid7o"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dh3yy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_dh3yy"]
+
+[node name="Node3D" type="Node3D" unique_id=1288617703]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=874773565]
+transform = Transform3D(0.96028185, -0.22663185, 0.16277835, 0.24610156, 0.9628315, -0.11130819, -0.13150215, 0.14694723, 0.9803641, -1.6765764, 1.5334228, 0.8082007)
+mesh = SubResource("PrismMesh_iid7o")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=186152409]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9969678, 0.0043342113, 0.002769947)
+mesh = SubResource("CylinderMesh_dh3yy")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="." unique_id=973135900]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.4256186)
+mesh = SubResource("BoxMesh_dh3yy")
